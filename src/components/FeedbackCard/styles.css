@@ -1,0 +1,35 @@
+.Feedback-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 200px;
+    padding: 24px;
+}
+
+.Feedback-wrapper>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+}
+
+.Feedback-wrapper .img-wrapper img {
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.Feedback-wrapper .img-wrapper {
+    width: fit-content;
+}
+
+
+.Feedback-wrapper>div h3 {
+    color: black;
+}
+
+.Feedback-wrapper p {
+    color: black;
+}

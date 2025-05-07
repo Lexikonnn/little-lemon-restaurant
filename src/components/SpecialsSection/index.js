@@ -16,8 +16,8 @@ const SpecialsSection = () => {
 
                 <div className="specials-cards">
                     <SpecialsCard img={lemonDesert} title="Desert" price="$ 7.99" description="Lorem impsum dolor. ad dolir minum." />
-                    <SpecialsCard img={lemonDesert} title="Desert" price="$ 7.99" description="Lorem impsum dolor. ad dolir minum." />
-                    <SpecialsCard img={lemonDesert} title="Desert" price="$ 7.99" description="Lorem impsum dolor. ad dolir minum." />
+                    <SpecialsCard img={lemonDesert} title="Cake" price="$ 9.99" description="Lorem impsum dolor. ad dolir minum." />
+                    <SpecialsCard img={lemonDesert} title="Soupe" price="$ 12.49" description="Lorem impsum dolor. ad dolir minum." />
                 </div>
             </div>
         </div>

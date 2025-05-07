@@ -1,0 +1,23 @@
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    padding: 34px 0;
+  }
+  
+  .testimonials-wrapper {
+    grid-column: 3 / span 8;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 32px;
+  }
+
+  .testimonials-header {
+    text-align: center;
+  }
+
+  .feedbacks-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

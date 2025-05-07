@@ -1,6 +1,10 @@
+import "./styles.css";
+
 const Footer = () => {
     return (
-        <footer></footer>
+        <footer>
+            <p>footer</p>
+        </footer>
     );
 }
 

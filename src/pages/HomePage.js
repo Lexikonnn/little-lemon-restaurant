@@ -1,5 +1,7 @@
 import LandingSection from "../components/LandingSection";
 import SpecialsSection from "../components/SpecialsSection";
+import TestimonialsSection from "../components/TestimonialsSection";
+import AboutSection from "../components/AboutSection";
 
 const HomePage = () => {
     return (
@@ -16,7 +18,12 @@ const HomePage = () => {
             </main>
             <main>
                 <section>
-                    <SpecialsSection />
+                    <TestimonialsSection />
+                </section>
+            </main>
+            <main>
+                <section>
+                    <AboutSection />
                 </section>
             </main>
         </div>
