@@ -1,5 +1,8 @@
-import { Helmet } from 'react-helmet';
-import { Routes, Route } from
+import { Helmet } from 'react-helmet-async';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import MainLayout from './layouts/MainLayout';
 
 function App() {
   return (
@@ -10,8 +13,8 @@ function App() {
         <meta property="og:description" content="Best and cozy family restaurant in city, best prices and service." />
       </Helmet>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
-        <Route path="/booking" element={<BookingPage />}></Route>
+        <Route path="/" element={<MainLayout><HomePage /></MainLayout>}></Route>
+        <Route path="/booking" element={<MainLayout><BookingPage /></MainLayout>}></Route>
       </Routes>
     </>
   );

@@ -1,0 +1,32 @@
+.specials-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    padding: 34px 0;
+  }
+  
+  .specials-wrapper {
+    grid-column: 3 / span 8;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 32px;
+  }
+
+  .specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  h2{
+    font-family: var(--markazi);
+    color: black;
+    font-size: 2.5em;
+  }
+
+  .specials-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }

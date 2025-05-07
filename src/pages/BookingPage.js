@@ -1,8 +1,8 @@
 const BookingPage = () => {
     return ( 
-        <div>
+        <main>
             
-        </div>
+        </main>
      );
 }
  
