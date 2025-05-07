@@ -41,3 +41,15 @@
     object-fit: cover;
     border-radius: 0;
 }
+
+
+@media (max-width: 600px) {
+    .about-wrapper img {
+      visibility: hidden;
+    }
+  
+    .about-wrapper{
+      width: fit-content;
+      gap: 32px;
+    }
+  }

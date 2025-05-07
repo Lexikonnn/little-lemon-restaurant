@@ -30,3 +30,15 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  @media (max-width: 768px) {
+    .specials-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .specials-cards > * {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
