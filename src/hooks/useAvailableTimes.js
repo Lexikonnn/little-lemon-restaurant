@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { fetchAPI } from "https://raw.githubusercontent.com/courseraap/capstone/main/api.js"
+import { fetchAPI } from "../utils/api";
 
 export function useAvailableTimes() {
     const [times, setTimes] = useState([]);
