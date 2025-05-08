@@ -1,8 +1,11 @@
 import InputField from "../InputField";
 import Button from "../../components/Button/index";
+import { useAvailableTimes } from "../../hooks/useAvailableTimes";
 import "./styles.css";
 
 const BookingForm = () => {
+    const [availableTimes, updateTimes] = useAvailableTimes();
+
 
     const submit = () => {
     }
