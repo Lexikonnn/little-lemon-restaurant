@@ -1,0 +1,32 @@
+form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.booking-container {
+    display: grid;
+    height: 75vh;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.form-wrapper {
+    grid-column: 5 / span 4;
+}
+
+.form-wrapper h2{
+    text-align: center;
+    font-size: 3em;
+    color: var(--olive);
+}
+
+@media (max-width: 768px) {
+    .form-wrapper {
+        grid-column: 3 / span 8;
+    }
+}
